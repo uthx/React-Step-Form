@@ -8,10 +8,7 @@ export class FormPersonalDetails extends Component {
     e.preventDefault();
     this.props.nextStep();
   };
-  goBack = (e) => {
-    e.preventDefault();
-    this.props.prevStep();
-  };
+    
   render() {
     const { values, handleChange } = this.props;
 
